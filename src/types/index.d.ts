@@ -30,7 +30,7 @@ export interface Comment {
   body: string;
 }
 
-// export type SortOrder = "asc" | "desc" | null;
+export type SortOrder = "asc" | "desc" | null;
 
 export interface SortConfig {
   key: keyof Comment | null;
