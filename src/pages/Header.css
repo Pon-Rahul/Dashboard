@@ -1,0 +1,39 @@
+
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.profile-icon {
+  background-color: #1f2937;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.profile-name {
+  font-size: 0.95rem;
+}
